@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.app-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+.navbar-center {
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+.navbar-center span {
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navbar-center span:hover {
+  text-decoration: underline;
+}
